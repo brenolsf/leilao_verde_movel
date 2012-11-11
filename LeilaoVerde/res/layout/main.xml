@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget36"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/lblTitulo"
+	android:layout_width="wrap_content"
+	android:layout_height="42dp"
+	android:text="Leil&#227;o Verde"
+	android:textSize="30sp"
+	android:textStyle="bold"
+	android:layout_x="73dp"
+	android:layout_y="30dp" />
+<TextView
+	android:id="@+id/lblLogin"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CNPJ"
+	android:textSize="18sp"
+	android:layout_x="19dp"
+	android:layout_y="127dp" />
+<EditText
+	android:id="@+id/edtLogin"
+	android:layout_width="203dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="105dp"
+	android:layout_y="119dp" />
+<EditText
+	android:id="@+id/edtSenha"
+	android:layout_width="203dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:password="true"
+	android:layout_x="104dp"
+	android:layout_y="178dp" />
+<Button
+	android:id="@+id/btnLogin"
+	android:layout_width="215dp"
+	android:layout_height="wrap_content"
+	android:text="Acessar"
+	android:textSize="16sp"
+	android:layout_x="64dp"
+	android:layout_y="261dp" />
+<TextView
+	android:id="@+id/lblSenha"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Senha"
+	android:textSize="18sp"
+	android:layout_x="19dp"
+	android:layout_y="184dp" />
+<TextView
+	android:id="@+id/lblCadastro"
+	android:layout_width="wrap_content"
+	android:layout_height="26dp"
+	android:text="N&#227;o &#233; cadastrado?"
+	android:textSize="20sp"
+	android:layout_x="9dp"
+	android:layout_y="386dp" />
+<Button
+	android:id="@+id/btnCadastrar"
+	android:layout_width="106dp"
+	android:layout_height="wrap_content"
+	android:text="Cadastrar"
+	android:textSize="16sp"
+	android:layout_x="201dp"
+	android:layout_y="379dp" />
+</AbsoluteLayout>
